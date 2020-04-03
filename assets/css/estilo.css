@@ -19,10 +19,10 @@ nav#menu a{
 }
 nav#menu a:hover{
     background-color:yellow;
-    color: black;
+    color: red;
 }
 #cor{
-    background-color: aqua;
+    background-color:aqua;
 }
 div.conteudo{
     padding: 50px;
@@ -61,7 +61,7 @@ a.botao{
     line-height: 70px;
 }
 a.botao:hover{
-    background-color: yellow;
+    background-color: black;
 }
 #card{
     float: left; 
@@ -77,3 +77,4 @@ text-align: center;
 text-transform: uppercase;
 
 }
+
