@@ -27,6 +27,7 @@ nav#menu a:hover{
 div.conteudo{
     padding: 50px;
     text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
 }
 h1.titulo{
     font-size: 40px;
@@ -77,4 +78,16 @@ text-align: center;
 text-transform: uppercase;
 
 }
-
+@media only screen and (max-widt:600px){
+*{margin: 0;padding: 0;font-size: 100%;border: none;outline: none;font-weight: 300;box-sizing: border-box;font-family: 'Ubuntu', sans-serif;}
+body{background-color: aqua;}
+a{text-decoration: none;}
+img{max-width: 100%;}
+.cabecalho{
+    width: 100%; 
+    float: left;
+    padding: 3% 4%;
+}
+.logo{width: 56px; height: 56px;float: left;background: url() center center/56px no-repeat;}
+.btn-menu{width: 56px; height: 56px; float: right;text-align: center;color:black;border-radius: 56px;cursor: pointer;background: linear-gradient(to right,aqua)}
+}
